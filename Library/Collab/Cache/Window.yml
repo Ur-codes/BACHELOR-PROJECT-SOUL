@@ -1,0 +1,667 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Health.cs
+    - Assets/Health.cs.meta
+    - Assets/Model.meta
+    - Assets/Model/DogKnight.meta
+    - Assets/Model/DogKnight/Animations.meta
+    - Assets/Model/DogKnight/Animations/Attack01.anim
+    - Assets/Model/DogKnight/Animations/Attack01.anim.meta
+    - Assets/Model/DogKnight/Animations/Attack02.anim
+    - Assets/Model/DogKnight/Animations/Attack02.anim.meta
+    - Assets/Model/DogKnight/Animations/Defend.anim
+    - Assets/Model/DogKnight/Animations/Defend.anim.meta
+    - Assets/Model/DogKnight/Animations/Die.anim
+    - Assets/Model/DogKnight/Animations/Die.anim.meta
+    - Assets/Model/DogKnight/Animations/DieRecover.anim
+    - Assets/Model/DogKnight/Animations/DieRecover.anim.meta
+    - Assets/Model/DogKnight/Animations/Dizzy.anim
+    - Assets/Model/DogKnight/Animations/Dizzy.anim.meta
+    - Assets/Model/DogKnight/Animations/GetHit.anim
+    - Assets/Model/DogKnight/Animations/GetHit.anim.meta
+    - Assets/Model/DogKnight/Animations/Idle_Battle.anim
+    - Assets/Model/DogKnight/Animations/Idle_Battle.anim.meta
+    - Assets/Model/DogKnight/Animations/RunForwardBattle.anim
+    - Assets/Model/DogKnight/Animations/RunForwardBattle.anim.meta
+    - Assets/Model/DogKnight/Animations/WalkForwardBattle.anim
+    - Assets/Model/DogKnight/Animations/WalkForwardBattle.anim.meta
+    - Assets/Model/DogKnight/Animator.meta
+    - Assets/Model/DogKnight/Animator/DogControl.controller
+    - Assets/Model/DogKnight/Animator/DogControl.controller.meta
+    - Assets/Model/DogKnight/Material.meta
+    - Assets/Model/DogKnight/Material/PBR.mat
+    - Assets/Model/DogKnight/Material/PBR.mat.meta
+    - Assets/Model/DogKnight/Material/Polyart.mat
+    - Assets/Model/DogKnight/Material/Polyart.mat.meta
+    - Assets/Model/DogKnight/Material/Skybox_Mat.mat
+    - Assets/Model/DogKnight/Material/Skybox_Mat.mat.meta
+    - Assets/Model/DogKnight/Material/Stage.mat
+    - Assets/Model/DogKnight/Material/Stage.mat.meta
+    - Assets/Model/DogKnight/Mesh.meta
+    - Assets/Model/DogKnight/Mesh/DogPBR.fbx
+    - Assets/Model/DogKnight/Mesh/DogPBR.fbx.meta
+    - Assets/Model/DogKnight/Mesh/DogPolyart.fbx
+    - Assets/Model/DogKnight/Mesh/DogPolyart.fbx.meta
+    - Assets/Model/DogKnight/Mesh/Shield.fbx
+    - Assets/Model/DogKnight/Mesh/Shield.fbx.meta
+    - Assets/Model/DogKnight/Mesh/ShieldPolyart.fbx
+    - Assets/Model/DogKnight/Mesh/ShieldPolyart.fbx.meta
+    - Assets/Model/DogKnight/Mesh/Stage.fbx
+    - Assets/Model/DogKnight/Mesh/Stage.fbx.meta
+    - Assets/Model/DogKnight/Mesh/Sword.fbx
+    - Assets/Model/DogKnight/Mesh/Sword.fbx.meta
+    - Assets/Model/DogKnight/Mesh/SwordPolyart.fbx
+    - Assets/Model/DogKnight/Mesh/SwordPolyart.fbx.meta
+    - Assets/Model/DogKnight/Prefab.meta
+    - Assets/Model/DogKnight/Prefab/DogPBR.prefab
+    - Assets/Model/DogKnight/Prefab/DogPBR.prefab.meta
+    - Assets/Model/DogKnight/Prefab/DogPolyart.prefab
+    - Assets/Model/DogKnight/Prefab/DogPolyart.prefab.meta
+    - Assets/Model/DogKnight/Scene.meta
+    - Assets/Model/DogKnight/Scene/Scene01.unity
+    - Assets/Model/DogKnight/Scene/Scene01.unity.meta
+    - Assets/Model/DogKnight/Scene/Scene01Settings.lighting
+    - Assets/Model/DogKnight/Scene/Scene01Settings.lighting.meta
+    - Assets/Model/DogKnight/Texture.meta
+    - Assets/Model/DogKnight/Texture/AO.png
+    - Assets/Model/DogKnight/Texture/AO.png.meta
+    - Assets/Model/DogKnight/Texture/Albedo.png
+    - Assets/Model/DogKnight/Texture/Albedo.png.meta
+    - Assets/Model/DogKnight/Texture/MS.png
+    - Assets/Model/DogKnight/Texture/MS.png.meta
+    - Assets/Model/DogKnight/Texture/Normal.png
+    - Assets/Model/DogKnight/Texture/Normal.png.meta
+    - Assets/Model/DogKnight/Texture/StandardAlbedo.png
+    - Assets/Model/DogKnight/Texture/StandardAlbedo.png.meta
+    - Assets/Model/DogKnight/promotion.jpg
+    - Assets/Model/DogKnight/promotion.jpg.meta
+    - Assets/Model/DungeonCharacters.meta
+    - Assets/Model/DungeonCharacters/Skeletons_demo.meta
+    - Assets/Model/DungeonCharacters/Skeletons_demo/DungeonSkeletons_pack.jpg
+    - Assets/Model/DungeonCharacters/Skeletons_demo/DungeonSkeletons_pack.jpg.meta
+    - Assets/Model/DungeonCharacters/Skeletons_demo/animation.meta
+    - Assets/Model/DungeonCharacters/Skeletons_demo/animation/DS_onehand_attack_A.FBX
+    - Assets/Model/DungeonCharacters/Skeletons_demo/animation/DS_onehand_attack_A.FBX.meta
+    - Assets/Model/DungeonCharacters/Skeletons_demo/animation/DS_onehand_idle_A.FBX
+    - Assets/Model/DungeonCharacters/Skeletons_demo/animation/DS_onehand_idle_A.FBX.meta
+    - Assets/Model/DungeonCharacters/Skeletons_demo/animation/DS_onehand_walk.FBX
+    - Assets/Model/DungeonCharacters/Skeletons_demo/animation/DS_onehand_walk.FBX.meta
+    - Assets/Model/DungeonCharacters/Skeletons_demo/animation/DungeonSkeleton_demo
+      (1).controller
+    - Assets/Model/DungeonCharacters/Skeletons_demo/animation/DungeonSkeleton_demo
+      (1).controller.meta
+    - Assets/Model/DungeonCharacters/Skeletons_demo/animation/Walk.anim
+    - Assets/Model/DungeonCharacters/Skeletons_demo/animation/Walk.anim.meta
+    - Assets/Model/DungeonCharacters/Skeletons_demo/models.meta
+    - Assets/Model/DungeonCharacters/Skeletons_demo/models/DungeonSkeleton_demo.FBX
+    - Assets/Model/DungeonCharacters/Skeletons_demo/models/DungeonSkeleton_demo.FBX.meta
+    - Assets/Model/DungeonCharacters/Skeletons_demo/models/Materials.meta
+    - Assets/Model/DungeonCharacters/Skeletons_demo/models/Materials/DS_skeleton_standard.mat
+    - Assets/Model/DungeonCharacters/Skeletons_demo/models/Materials/DS_skeleton_standard.mat.meta
+    - Assets/Model/DungeonCharacters/Skeletons_demo/models/Materials/DemoEquipment.mat
+    - Assets/Model/DungeonCharacters/Skeletons_demo/models/Materials/DemoEquipment.mat.meta
+    - Assets/Model/DungeonCharacters/Skeletons_demo/models/Materials/DemoEquipment.tga
+    - Assets/Model/DungeonCharacters/Skeletons_demo/models/Materials/DemoEquipment.tga.meta
+    - Assets/Model/DungeonCharacters/Skeletons_demo/models/Materials/DemoSkeleton.png
+    - Assets/Model/DungeonCharacters/Skeletons_demo/models/Materials/DemoSkeleton.png.meta
+    - Assets/Model/Necromancer.meta
+    - Assets/Model/Necromancer/Explosion.prefab
+    - Assets/Model/Necromancer/Explosion.prefab.meta
+    - Assets/Model/Necromancer/Fireball.prefab
+    - Assets/Model/Necromancer/Fireball.prefab.meta
+    - Assets/Model/Necromancer/Materials.meta
+    - Assets/Model/Necromancer/Materials/necromancer_necromant_color.mat
+    - Assets/Model/Necromancer/Materials/necromancer_necromant_color.mat.meta
+    - Assets/Model/Necromancer/Materials/postament_got_Material_color.mat
+    - Assets/Model/Necromancer/Materials/postament_got_Material_color.mat.meta
+    - Assets/Model/Necromancer/Materials/staff_skull_default_color.mat
+    - Assets/Model/Necromancer/Materials/staff_skull_default_color.mat.meta
+    - Assets/Model/Necromancer/Necromancer.FBX
+    - Assets/Model/Necromancer/Necromancer.FBX.meta
+    - Assets/Model/Necromancer/NecromancerAnimator.controller
+    - Assets/Model/Necromancer/NecromancerAnimator.controller.meta
+    - Assets/Model/Necromancer/Pedestal.FBX
+    - Assets/Model/Necromancer/Pedestal.FBX.meta
+    - Assets/Model/Necromancer/Prefab.meta
+    - Assets/Model/Necromancer/Prefab/Necromancer.prefab
+    - Assets/Model/Necromancer/Prefab/Necromancer.prefab.meta
+    - Assets/Model/Necromancer/Prefab/Pedestal.prefab
+    - Assets/Model/Necromancer/Prefab/Pedestal.prefab.meta
+    - Assets/Model/Necromancer/Texture.meta
+    - Assets/Model/Necromancer/Texture/Pedestal.png
+    - Assets/Model/Necromancer/Texture/Pedestal.png.meta
+    - Assets/Model/Necromancer/Texture/necromancer_necromant_color.png
+    - Assets/Model/Necromancer/Texture/necromancer_necromant_color.png.meta
+    - Assets/Model/Necromancer/Texture/staff_skull_default_color.png
+    - Assets/Model/Necromancer/Texture/staff_skull_default_color.png.meta
+    - Assets/Model/Player.prefab
+    - Assets/Model/Player.prefab.meta
+    - Assets/Model/Robot Kyle.meta
+    - Assets/Model/Robot Kyle/Materials.meta
+    - Assets/Model/Robot Kyle/Materials/Robot_Color.mat
+    - Assets/Model/Robot Kyle/Materials/Robot_Color.mat.meta
+    - Assets/Model/Robot Kyle/Model.meta
+    - Assets/Model/Robot Kyle/Model/Robot Kyle.fbx
+    - Assets/Model/Robot Kyle/Model/Robot Kyle.fbx.meta
+    - Assets/Model/Robot Kyle/Textures.meta
+    - Assets/Model/Robot Kyle/Textures/Robot_Color.tga
+    - Assets/Model/Robot Kyle/Textures/Robot_Color.tga.meta
+    - Assets/Model/Robot Kyle/Textures/Robot_Normal.tga
+    - Assets/Model/Robot Kyle/Textures/Robot_Normal.tga.meta
+    - Assets/Model/SiuniaevCharacters.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Animators.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Animators/GolemAnimator.controller
+    - Assets/Model/SiuniaevCharacters/02_Golem/Animators/GolemAnimator.controller.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/ExplosionRock.prefab
+    - Assets/Model/SiuniaevCharacters/02_Golem/ExplosionRock.prefab.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Materials.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Materials/Golem.mat
+    - Assets/Model/SiuniaevCharacters/02_Golem/Materials/Golem.mat.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Models.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Models/3dsmax.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Models/3dsmax/Golem_3dmax_2013_2014_2015_2016.rar
+    - Assets/Model/SiuniaevCharacters/02_Golem/Models/3dsmax/Golem_3dmax_2013_2014_2015_2016.rar.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Models/FBX.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Models/FBX/Golem.FBX
+    - Assets/Model/SiuniaevCharacters/02_Golem/Models/FBX/Golem.FBX.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Prefabs.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Prefabs/GolemPrefab.prefab
+    - Assets/Model/SiuniaevCharacters/02_Golem/Prefabs/GolemPrefab.prefab.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Rock.prefab
+    - Assets/Model/SiuniaevCharacters/02_Golem/Rock.prefab.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Scenes.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Scenes/GolemShowcase.unity
+    - Assets/Model/SiuniaevCharacters/02_Golem/Scenes/GolemShowcase.unity.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Scripts.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Scripts/AnimationButton.cs
+    - Assets/Model/SiuniaevCharacters/02_Golem/Scripts/AnimationButton.cs.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Scripts/CharacterRotator.cs
+    - Assets/Model/SiuniaevCharacters/02_Golem/Scripts/CharacterRotator.cs.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Textures.meta
+    - Assets/Model/SiuniaevCharacters/02_Golem/Textures/Golem.png
+    - Assets/Model/SiuniaevCharacters/02_Golem/Textures/Golem.png.meta
+    - Assets/Model/Tree.prefab
+    - Assets/Model/Tree.prefab.meta
+    - Assets/Model/Zombie.meta
+    - Assets/Model/Zombie/Animations.meta
+    - Assets/Model/Zombie/Animations/Z_Attack.anim
+    - Assets/Model/Zombie/Animations/Z_Attack.anim.meta
+    - Assets/Model/Zombie/Animations/Z_FallingBack.anim
+    - Assets/Model/Zombie/Animations/Z_FallingBack.anim.meta
+    - Assets/Model/Zombie/Animations/Z_FallingForward.anim
+    - Assets/Model/Zombie/Animations/Z_FallingForward.anim.meta
+    - Assets/Model/Zombie/Animations/Z_Idle.anim
+    - Assets/Model/Zombie/Animations/Z_Idle.anim.meta
+    - Assets/Model/Zombie/Animations/Z_Run.anim
+    - Assets/Model/Zombie/Animations/Z_Run.anim.meta
+    - Assets/Model/Zombie/Animations/Z_Run_InPlace.anim
+    - Assets/Model/Zombie/Animations/Z_Run_InPlace.anim.meta
+    - Assets/Model/Zombie/Animations/Z_Walk.anim
+    - Assets/Model/Zombie/Animations/Z_Walk.anim.meta
+    - Assets/Model/Zombie/Animations/Z_Walk1.anim
+    - Assets/Model/Zombie/Animations/Z_Walk1.anim.meta
+    - Assets/Model/Zombie/Animations/Z_Walk1_InPlace.anim
+    - Assets/Model/Zombie/Animations/Z_Walk1_InPlace.anim.meta
+    - Assets/Model/Zombie/Animations/Z_Walk_InPlace.anim
+    - Assets/Model/Zombie/Animations/Z_Walk_InPlace.anim.meta
+    - Assets/Model/Zombie/Animations/Zombie.controller
+    - Assets/Model/Zombie/Animations/Zombie.controller.meta
+    - Assets/Model/Zombie/Animations/Zombie@Z_Attack.FBX
+    - Assets/Model/Zombie/Animations/Zombie@Z_Attack.FBX.meta
+    - Assets/Model/Zombie/Animations/Zombie@Z_FallingBack.FBX
+    - Assets/Model/Zombie/Animations/Zombie@Z_FallingBack.FBX.meta
+    - Assets/Model/Zombie/Animations/Zombie@Z_FallingForward.FBX
+    - Assets/Model/Zombie/Animations/Zombie@Z_FallingForward.FBX.meta
+    - Assets/Model/Zombie/Animations/Zombie@Z_Idle.FBX
+    - Assets/Model/Zombie/Animations/Zombie@Z_Idle.FBX.meta
+    - Assets/Model/Zombie/Animations/Zombie@Z_Run.FBX
+    - Assets/Model/Zombie/Animations/Zombie@Z_Run.FBX.meta
+    - Assets/Model/Zombie/Animations/Zombie@Z_Run_InPlace.FBX
+    - Assets/Model/Zombie/Animations/Zombie@Z_Run_InPlace.FBX.meta
+    - Assets/Model/Zombie/Animations/Zombie@Z_Walk.FBX
+    - Assets/Model/Zombie/Animations/Zombie@Z_Walk.FBX.meta
+    - Assets/Model/Zombie/Animations/Zombie@Z_Walk1.FBX
+    - Assets/Model/Zombie/Animations/Zombie@Z_Walk1.FBX.meta
+    - Assets/Model/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX
+    - Assets/Model/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX.meta
+    - Assets/Model/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX
+    - Assets/Model/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX.meta
+    - Assets/Model/Zombie/FBXs.meta
+    - Assets/Model/Zombie/FBXs/Zombie1.FBX
+    - Assets/Model/Zombie/FBXs/Zombie1.FBX.meta
+    - Assets/Model/Zombie/FBXs/Zombie2.FBX
+    - Assets/Model/Zombie/FBXs/Zombie2.FBX.meta
+    - Assets/Model/Zombie/FBXs/Zombie3.FBX
+    - Assets/Model/Zombie/FBXs/Zombie3.FBX.meta
+    - Assets/Model/Zombie/Materials.meta
+    - Assets/Model/Zombie/Materials/Plane.mat
+    - Assets/Model/Zombie/Materials/Plane.mat.meta
+    - Assets/Model/Zombie/Materials/Zombie.mat
+    - Assets/Model/Zombie/Materials/Zombie.mat.meta
+    - Assets/Model/Zombie/Prefabs.meta
+    - Assets/Model/Zombie/Prefabs/Zombie1.prefab
+    - Assets/Model/Zombie/Prefabs/Zombie1.prefab.meta
+    - Assets/Model/Zombie/Prefabs/Zombie2.prefab
+    - Assets/Model/Zombie/Prefabs/Zombie2.prefab.meta
+    - Assets/Model/Zombie/Prefabs/Zombie3.prefab
+    - Assets/Model/Zombie/Prefabs/Zombie3.prefab.meta
+    - Assets/Model/Zombie/ScenePrefabs.unity
+    - Assets/Model/Zombie/ScenePrefabs.unity.meta
+    - Assets/Model/Zombie/Textures.meta
+    - Assets/Model/Zombie/Textures/Zombie.tga
+    - Assets/Model/Zombie/Textures/Zombie.tga.meta
+    - Assets/Model/Zombie/Textures/Zombie_ao.png
+    - Assets/Model/Zombie/Textures/Zombie_ao.png.meta
+    - Assets/Model/Zombie/Textures/Zombie_metallic.tga
+    - Assets/Model/Zombie/Textures/Zombie_metallic.tga.meta
+    - Assets/Model/Zombie/Textures/Zombie_nm.png
+    - Assets/Model/Zombie/Textures/Zombie_nm.png.meta
+    - Assets/Model/Zombie/Textures/zombie_emission.tga
+    - Assets/Model/Zombie/Textures/zombie_emission.tga.meta
+    - Assets/Model/_GhoulZombie.meta
+    - Assets/Model/_GhoulZombie/Black.mat
+    - Assets/Model/_GhoulZombie/Black.mat.meta
+    - Assets/Model/_GhoulZombie/Floor.mat
+    - Assets/Model/_GhoulZombie/Floor.mat.meta
+    - Assets/Model/_GhoulZombie/Ghoul.prefab
+    - Assets/Model/_GhoulZombie/Ghoul.prefab.meta
+    - Assets/Model/_GhoulZombie/Ghoul@Animations.fbx
+    - Assets/Model/_GhoulZombie/Ghoul@Animations.fbx.meta
+    - Assets/Model/_GhoulZombie/GhoulMaterial.mat
+    - Assets/Model/_GhoulZombie/GhoulMaterial.mat.meta
+    - Assets/Model/_GhoulZombie/GhoulScene.unity
+    - Assets/Model/_GhoulZombie/GhoulScene.unity.meta
+    - Assets/Model/_GhoulZombie/GhoulSceneSettings.lighting
+    - Assets/Model/_GhoulZombie/GhoulSceneSettings.lighting.meta
+    - Assets/Model/_GhoulZombie/Ghoul_Volume4_color.png
+    - Assets/Model/_GhoulZombie/Ghoul_Volume4_color.png.meta
+    - Assets/Model/_GhoulZombie/Ghoul_Volume4_emissive.png
+    - Assets/Model/_GhoulZombie/Ghoul_Volume4_emissive.png.meta
+    - Assets/Model/_GhoulZombie/Ghoul_Volume4_gloss.png
+    - Assets/Model/_GhoulZombie/Ghoul_Volume4_gloss.png.meta
+    - Assets/Model/_GhoulZombie/Ghoul_Volume4_metalness.png
+    - Assets/Model/_GhoulZombie/Ghoul_Volume4_metalness.png.meta
+    - Assets/Model/_GhoulZombie/Ghoul_Volume4_nmap.png
+    - Assets/Model/_GhoulZombie/Ghoul_Volume4_nmap.png.meta
+    - Assets/Model/_GhoulZombie/PPS_Ghoul.asset
+    - Assets/Model/_GhoulZombie/PPS_Ghoul.asset.meta
+    - Assets/New Terrain 1.asset
+    - Assets/New Terrain 1.asset.meta
+    - Assets/New Terrain.asset
+    - Assets/New Terrain.asset.meta
+    - Assets/Object.meta
+    - Assets/Object/Grass And Flowers Pack 1.meta
+    - Assets/Object/Grass And Flowers Pack 1/Bush.meta
+    - Assets/Object/Grass And Flowers Pack 1/Bush/Bush 1.png
+    - Assets/Object/Grass And Flowers Pack 1/Bush/Bush 1.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Bush/Bush 2.png
+    - Assets/Object/Grass And Flowers Pack 1/Bush/Bush 2.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Bush/Bush 3.png
+    - Assets/Object/Grass And Flowers Pack 1/Bush/Bush 3.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Bush/Bush 4.png
+    - Assets/Object/Grass And Flowers Pack 1/Bush/Bush 4.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Bush/Bush 5.png
+    - Assets/Object/Grass And Flowers Pack 1/Bush/Bush 5.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Bush/Bush 6.png
+    - Assets/Object/Grass And Flowers Pack 1/Bush/Bush 6.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Bush/Bush 7.png
+    - Assets/Object/Grass And Flowers Pack 1/Bush/Bush 7.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Bush/Bush 8.png
+    - Assets/Object/Grass And Flowers Pack 1/Bush/Bush 8.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/BlackMat.mat
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/BlackMat.mat.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Camera 1.renderTexture
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Camera 1.renderTexture.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Camera 2.renderTexture
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Camera 2.renderTexture.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Example Scene.unity
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Example Scene.unity.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Example SceneSettings.lighting
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Example SceneSettings.lighting.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Gray.png
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Gray.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/SimpleTextureDrawing.cs
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/SimpleTextureDrawing.cs.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/Sunny1 Skybox.mat
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/Sunny1 Skybox.mat.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/Textures.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/Textures/Sunny1.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/Textures/Sunny1/Sunny1_back.tif
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/Textures/Sunny1/Sunny1_back.tif.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/Textures/Sunny1/Sunny1_down.tif
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/Textures/Sunny1/Sunny1_down.tif.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/Textures/Sunny1/Sunny1_front.tif
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/Textures/Sunny1/Sunny1_front.tif.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/Textures/Sunny1/Sunny1_left.tif
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/Textures/Sunny1/Sunny1_left.tif.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/Textures/Sunny1/Sunny1_right.tif
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/Textures/Sunny1/Sunny1_right.tif.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/Textures/Sunny1/Sunny1_up.tif
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/Textures/Sunny1/Sunny1_up.tif.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/_skybox info.txt
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Skyboxes/_skybox info.txt.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Terrain Data.asset
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/Terrain Data.asset.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/TerrainBumpedMaterial.mat
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/TerrainBumpedMaterial.mat.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/UnlitMaterial 1.mat
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/UnlitMaterial 1.mat.meta
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/UnlitMaterial.mat
+    - Assets/Object/Grass And Flowers Pack 1/Example Scene/UnlitMaterial.mat.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 1.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 1.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 10.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 10.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 11.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 11.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 12.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 12.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 13.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 13.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 14.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 14.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 15.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 15.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 16.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 16.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 17.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 17.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 18.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 18.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 19.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 19.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 2.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 2.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 20.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 20.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 21.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 21.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 22.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 22.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 23.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 23.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 24.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 24.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 25.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 25.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 26.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 26.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 27.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 27.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 28.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 28.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 29.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 29.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 3.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 3.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 30.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 30.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 31.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 31.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 32.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 32.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 33.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 33.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 34.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 34.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 35.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 35.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 36.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 36.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 4.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 4.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 5.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 5.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 6.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 6.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 7.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 7.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 8.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 8.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 9.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Flower 9.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 1.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 1.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 10.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 10.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 11.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 11.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 2.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 2.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 3.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 3.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 4.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 4.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 5.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 5.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 6.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 6.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 7.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 7.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 8.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 8.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 9.png
+    - Assets/Object/Grass And Flowers Pack 1/Flower/Grass Flower 9.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Grass.meta
+    - Assets/Object/Grass And Flowers Pack 1/Grass/Grass 1.png
+    - Assets/Object/Grass And Flowers Pack 1/Grass/Grass 1.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Grass/Grass 2.png
+    - Assets/Object/Grass And Flowers Pack 1/Grass/Grass 2.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Grass/Grass 3.png
+    - Assets/Object/Grass And Flowers Pack 1/Grass/Grass 3.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Grass/Grass 4.png
+    - Assets/Object/Grass And Flowers Pack 1/Grass/Grass 4.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Ground Textures.meta
+    - Assets/Object/Grass And Flowers Pack 1/Ground Textures/Groundplants 1_D.jpg
+    - Assets/Object/Grass And Flowers Pack 1/Ground Textures/Groundplants 1_D.jpg.meta
+    - Assets/Object/Grass And Flowers Pack 1/Ground Textures/Groundplants 1_N.jpg
+    - Assets/Object/Grass And Flowers Pack 1/Ground Textures/Groundplants 1_N.jpg.meta
+    - Assets/Object/Grass And Flowers Pack 1/Ground Textures/RockSharp 1_D.png
+    - Assets/Object/Grass And Flowers Pack 1/Ground Textures/RockSharp 1_D.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Ground Textures/RockSharp 1_N.png
+    - Assets/Object/Grass And Flowers Pack 1/Ground Textures/RockSharp 1_N.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree.meta
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 1.png
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 1.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 10.png
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 10.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 11.png
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 11.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 2.png
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 2.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 3.png
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 3.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 4.png
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 4.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 5.png
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 5.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 6.png
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 6.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 7.png
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 7.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 8.png
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 8.png.meta
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 9.png
+    - Assets/Object/Grass And Flowers Pack 1/Small Tree/Small Tree 9.png.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/ProjectSouls.meta
+    - Assets/Scenes/ProjectSouls.unity
+    - Assets/Scenes/ProjectSouls.unity.meta
+    - Assets/Scenes/ProjectSouls/NavMesh.asset
+    - Assets/Scenes/ProjectSouls/NavMesh.asset.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Script.meta
+    - Assets/Script/AttackingPlayerAI.cs
+    - Assets/Script/AttackingPlayerAI.cs.meta
+    - Assets/Script/Camera_Movement.cs
+    - Assets/Script/Camera_Movement.cs.meta
+    - Assets/Script/Character_Movement.cs
+    - Assets/Script/Character_Movement.cs.meta
+    - Assets/Script/CollisionDetection.cs
+    - Assets/Script/CollisionDetection.cs.meta
+    - Assets/Script/FireballController.cs
+    - Assets/Script/FireballController.cs.meta
+    - Assets/Script/FollowingAI.cs
+    - Assets/Script/FollowingAI.cs.meta
+    - Assets/Script/Projectile.cs
+    - Assets/Script/Projectile.cs.meta
+    - Assets/Script/RockController.cs
+    - Assets/Script/RockController.cs.meta
+    - Assets/Script/TeleportPlayer.cs
+    - Assets/Script/TeleportPlayer.cs.meta
+    - Assets/Script/ThrowRockProjectile.cs
+    - Assets/Script/ThrowRockProjectile.cs.meta
+    - Assets/Script/WeaponController.cs
+    - Assets/Script/WeaponController.cs.meta
+    - Assets/Textures-1.meta
+    - Assets/Textures-1/Hovl Studio.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Concrete slab.png
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Concrete slab.png.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Concrete slab_Height.png
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Concrete slab_Height.png.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Concrete slab_MetallicSmoothness.png
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Concrete slab_MetallicSmoothness.png.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Concrete slab_Normal.png
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Concrete slab_Normal.png.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Demo fire.unity
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Demo fire.unity.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Floor3.mat
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Floor3.mat.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/LightingData.asset
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/LightingData.asset.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Lightmap-0_comp_dir.png
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Lightmap-0_comp_dir.png.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Lightmap-0_comp_light.exr
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Lightmap-0_comp_light.exr.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Readme.txt
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/Readme.txt.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/ReflectionProbe-0.exr
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/ReflectionProbe-0.exr.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/ReflectionProbe-1.exr
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Demo scene/ReflectionProbe-1.exr.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Materials.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Materials/FireSphere1.mat
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Materials/FireSphere1.mat.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Materials/FireSphere2.mat
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Materials/FireSphere2.mat.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Materials/Smoke26.mat
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Materials/Smoke26.mat.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Materials/SparkSphere.mat
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Materials/SparkSphere.mat.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Materials/Trail67.mat
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Materials/Trail67.mat.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Explosion.prefab
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Explosion.prefab.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire 0.prefab
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire 0.prefab.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire 1.prefab
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire 1.prefab.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire 2.prefab
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire 2.prefab.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire 3.prefab
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire 3.prefab.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire pro blue.prefab
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire pro blue.prefab.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire pro green.prefab
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire pro green.prefab.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire pro orange.prefab
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire pro orange.prefab.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire pro red.prefab
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire pro red.prefab.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire pro yellow.prefab
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/Magic fire pro yellow.prefab.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/RotatorPS1.prefab
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/RotatorPS1.prefab.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/RotatorPS2.prefab
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Prefabs/RotatorPS2.prefab.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Shaders.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Shaders/FireSphere.shader
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Shaders/FireSphere.shader.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Shaders/FireSphere.shadergraph
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Shaders/FireSphere.shadergraph.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Textures.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Textures/FireSphere1.png
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Textures/FireSphere1.png.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Textures/FireSphere2.png
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Textures/FireSphere2.png.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Textures/Smoke26.png
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Textures/Smoke26.png.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Textures/Trail67.png
+    - Assets/Textures-1/Hovl Studio/Procedural fire/Textures/Trail67.png.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/URP and HDRP.meta
+    - Assets/Textures-1/Hovl Studio/Procedural fire/URP and HDRP/How to change rendering
+      pipeline.png
+    - Assets/Textures-1/Hovl Studio/Procedural fire/URP and HDRP/How to change rendering
+      pipeline.png.meta
+    - Assets/Textures-1/Standard Assets.meta
+    - Assets/Textures-1/Standard Assets/Effects.meta
+    - Assets/Textures-1/Standard Assets/Effects/ImageEffects.meta
+    - Assets/Textures-1/Standard Assets/Effects/ImageEffects/Textures.meta
+    - Assets/Textures-1/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png
+    - Assets/Textures-1/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png.meta
+    - Assets/Textures-1/Tree_Textures.meta
+    - Assets/Textures-1/Tree_Textures/diffuse.png
+    - Assets/Textures-1/Tree_Textures/diffuse.png.meta
+    - Assets/Textures-1/Tree_Textures/normal_specular.png
+    - Assets/Textures-1/Tree_Textures/normal_specular.png.meta
+    - Assets/Textures-1/Tree_Textures/shadow.png
+    - Assets/Textures-1/Tree_Textures/shadow.png.meta
+    - Assets/Textures-1/Tree_Textures/translucency_gloss.png
+    - Assets/Textures-1/Tree_Textures/translucency_gloss.png.meta
+    - Assets/Textures-1/_TerrainAutoUpgrade.meta
+    - Assets/Textures-1/_TerrainAutoUpgrade/layer_Groundplants 1_DGroundplants 1_N2023054508611406.terrainlayer
+    - Assets/Textures-1/_TerrainAutoUpgrade/layer_Groundplants 1_DGroundplants 1_N2023054508611406.terrainlayer.meta
+    - Assets/Textures-1/_TerrainAutoUpgrade/layer_RockSharp 1_DRockSharp 1_N793646612c42751.terrainlayer
+    - Assets/Textures-1/_TerrainAutoUpgrade/layer_RockSharp 1_DRockSharp 1_N793646612c42751.terrainlayer.meta
+    - Assets/Textures-1/playerControl.cs
+    - Assets/Textures-1/playerControl.cs.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
